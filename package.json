@@ -1,0 +1,18 @@
+{
+  "name": "socketchat",
+  "version": "1.0.0",
+  "description": "Simple Chat using socket.io",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server/server.js"
+  },
+  "author": "alpha74",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "xmlhttprequest-ssl": ">=1.6.2"
+  }
+}
